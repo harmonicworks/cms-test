@@ -41,4 +41,15 @@ collections:
       - { label: "Publish date", name: "date", widget: "datetime", hint: "Set a future date to schedule the post. It appears on the site on that day." }
       - { label: "Preview image (for sharing)", name: "image", widget: "image", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+      - label: "Web address (optional)"
+        name: "slug"
+        widget: "string"
+        required: false
+        pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', "Use lowercase letters, numbers and hyphens only, e.g. why-this-blog"]
+        hint: "Becomes harmonicworks.org/blog/<this>/. Leave empty to use the title. Short, 3-5 words. Changing it after publishing? Put the old one under Old addresses."
+      - label: "Old addresses (optional)"
+        name: "redirect_from"
+        widget: "list"
+        required: false
+        hint: "Only needed if you changed the web address after publishing. Add the old one like /blog/old-name/ and visitors get sent to the new address."
       - { label: "Post", name: "body", widget: "markdown" }
