@@ -3,7 +3,7 @@ backend:
   name: github
   repo: harmonicworks/cms-test
   branch: main
-  base_url: https://REPLACE-WITH-WORKER-URL   # the Cloudflare login helper
+  base_url: https://sveltia-cms-auth.harmonicworks-studio.workers.dev   # the Cloudflare login helper
 
 publish_mode: editorial_workflow   # Drafts -> In review -> Ready board
 
