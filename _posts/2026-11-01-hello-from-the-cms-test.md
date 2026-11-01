@@ -1,9 +1,9 @@
 ---
-title: "Hello from the CMS test"
-description: "A dummy post to try out the blog editors. Not a real post."
-date: 2026-11-01 12:00:00 +0100
-tags: [test]
+title: First test, Decap, a blog editor for nerds
+description: Basically, trying out why or why not to love Decap
+date: 2026-11-01T16:15:00.000+01:00
+image: /cms-test/images/blog/screenshot-2026-10-15-at-17.14.36.png
+tags:
+  - testasusual
 ---
-This is a **dummy post** on the test copy of the site. Open it in either editor and change anything you like: add an image, turn a word into a link, rewrite this line.
-
-Nothing here touches harmonicworks.org.
+To test this **cms program** out, I am [writing words ](www.google.com)that do not really mean [stuff.](https://google.com)
