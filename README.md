@@ -1,0 +1,39 @@
+# 🎧 HarmonicWorks
+
+Hi, I’m Maurice — a musician, writer, and creative nerd.  
+I explore the intersection of music, technology, and human creativity.  
+This space is where I blend structured logic with expressive sound,  
+and where code meets composition.
+
+---
+
+### 🌱 Current Focus
+
+- Exploring the role of AI and ethics in creative expression
+- Writing about the evolution of computers and music
+- Slowly building a digital garden of sound, code, and thoughts
+
+---
+
+### 🛠️ Current Projects
+
+- `computers-and-music-history`: A reworked version of my thesis  
+- `Between the Brackets`: The current state of AI, and the ethics involved
+- [Raised by Empathy](https://editor.reedsy.com/s/81eLW1T) Why and how empathy could be a valuable addition to your life, and when it starts to hurt.
+
+---
+
+### 🌐 Elsewhere
+
+- 🎓 [Google Scholar](https://scholar.google.com/citations?user=C0xB-GMAAAAJ)  
+- 🎼 [Sound Experiments & Articles – Coming Soon]  
+- 🧬 [ORCID](https://orcid.org/0009-0007-8216-6408)
+
+---
+
+> “Every interaction, no matter the medium, is a chance to connect with humanity.”  
+> — A quiet principle behind all I build and create
+
+
+Note: This is a personal portfolio site. Suggestions are appreciated, but this project is not open for contributions.
+

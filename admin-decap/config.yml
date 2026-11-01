@@ -1,0 +1,32 @@
+# CMS TEST — Decap CMS, with the draft board (editorial workflow)
+backend:
+  name: github
+  repo: harmonicworks/cms-test
+  branch: main
+  base_url: https://REPLACE-WITH-WORKER-URL   # the Cloudflare login helper
+
+publish_mode: editorial_workflow   # Drafts -> In review -> Ready board
+
+site_url: https://harmonicworks.github.io/cms-test
+display_url: https://harmonicworks.github.io/cms-test
+logo_url: https://harmonicworks.github.io/cms-test/images/favicon-192x192.png
+
+media_folder: images/blog
+public_folder: /cms-test/images/blog
+
+collections:
+  - name: posts
+    label: "Blog posts"
+    label_singular: "Blog post"
+    folder: _posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ["date", "title"]
+    summary: "{{title}} — {{date | date('YYYY-MM-DD')}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description (for search results and sharing)", name: "description", widget: "text", required: false, hint: "One or two sentences. Shown in Google and when the post is shared." }
+      - { label: "Publish date", name: "date", widget: "datetime", hint: "Set a future date to schedule the post. It appears on the site on that day." }
+      - { label: "Preview image (for sharing)", name: "image", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Post", name: "body", widget: "markdown" }
