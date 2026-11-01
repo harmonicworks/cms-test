@@ -26,13 +26,21 @@ media_libraries:
           width: 1600
           height: 1600
 
+slug:
+  encoding: ascii
+  clean_accents: true
+  timezone: local
+
 collections:
   - name: posts
     label: "Blog posts"
     label_singular: "Blog post"
     folder: _posts
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # File name only (Jekyll needs the date in it). Not editable: the web address is set with the "Web address" field.
+    slug:
+      template: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      editable: false
     sortable_fields: ["date", "title"]
     summary: "{{title}} — {{date | date('YYYY-MM-DD')}}"
     fields:
