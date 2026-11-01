@@ -13,7 +13,7 @@ title                    : "Harmonic Works"
 title_separator          : "-"
 name                     : &name "Maurice Hissink"
 description              : &description "A living notebook on music, ethics, creativity and the human experience."
-url                      : https://harmonicworks.github.io
+url                      : https://harmonicworks.org
 baseurl                  : "/cms-test"
 repository               : "harmonicworks/cms-test"
 

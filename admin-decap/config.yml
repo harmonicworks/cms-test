@@ -7,9 +7,9 @@ backend:
 
 publish_mode: editorial_workflow   # Drafts -> In review -> Ready board
 
-site_url: https://harmonicworks.github.io/cms-test
-display_url: https://harmonicworks.github.io/cms-test
-logo_url: https://harmonicworks.github.io/cms-test/images/favicon-192x192.png
+site_url: https://harmonicworks.org/cms-test
+display_url: https://harmonicworks.org/cms-test
+logo_url: https://harmonicworks.org/cms-test/images/favicon-192x192.png
 
 media_folder: images/blog
 public_folder: /cms-test/images/blog
