@@ -14,6 +14,18 @@ logo_url: https://harmonicworks.org/cms-test/images/favicon-192x192.png
 media_folder: images/blog
 public_folder: /cms-test/images/blog
 
+# Shrink uploaded photos automatically: max 1600 px, converted to WebP, tidy file names
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1600
+          height: 1600
+
 collections:
   - name: posts
     label: "Blog posts"
